@@ -1,6 +1,10 @@
 body{
-  background: black;
-  color: white;
+  background-image: url(img/fon.jpg);
+  color: black;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .Top_menu{
   display: inline-block;
@@ -20,28 +24,37 @@ header{
 .Top_menu a{
   font-family:TimesNewRoman;
   font-size: 100%;
-  color: white;
+  color: black;
   text-decoration: none;
 }
-
-
-
-
-
-
-
  p{
   font-family: "Times New Roman";
   font-size: 250%;
   font-style:italic;
-  color: white;
+  color: black;
 }
-
-
-
 ul {
   font-family: "Times New Roman";
   font-size: 200%;
   font-style:italic;
-  color: white;
+  color: black;
+}
+.container {
+  font-size: 50%;
+  width: 34%;
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px auto;
+}
+.container img {
+ float: left;
+ margin-right: 20px;
+ border-radius: 50%;
+ width: 90px;
+}
+.container span {
+ font-size: 30px;
+ margin-right: 15px;
 }
