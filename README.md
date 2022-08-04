@@ -1,2 +1,0 @@
-# TimurWeb
-Timurs educational project
